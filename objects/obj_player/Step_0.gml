@@ -10,7 +10,7 @@ l = keyboard_check(ord("A"))		//left
 	
 r = keyboard_check(ord("D"))		//right
 	|| gamepad_button_check(0, gp_padr) //dpad
-	|| (global.axislh > .5 ); //nes controller1
+	|| (global.axislh > .5 ); //nes controller
 
 u = keyboard_check(ord("W"))		//up
 	|| gamepad_button_check(0, gp_padu) //dpad
@@ -22,13 +22,20 @@ d = keyboard_check(ord("S"))		//down
 
 
 shot = keyboard_check(vk_space)		// shoot
-	|| gamepad_button_check(0, gp_face2); //nes controller
+	|| gamepad_button_check(0, gp_face2)
+	|| gamepad_button_check(0, gp_face4);
+	//|| gamepad_button_check(0, gp_face2); //nes controller
 
 spdu = keyboard_check(ord("N"))		//speed up
-	|| gamepad_button_check(0, gp_face1); //nes controller
+	|| gamepad_button_check(0, gp_shoulderr)
+	|| gamepad_button_check(0, gp_shoulderrb);
+	//|| gamepad_button_check(0, gp_face1); //nes controller
 	
 spdd = keyboard_check(vk_lshift)		//speed down
-	|| gamepad_button_check(0, gp_face4); //nes controller
+	|| gamepad_button_check(0, gp_shoulderl)
+	|| gamepad_button_check(0, gp_shoulderlb);
+	//|| gamepad_button_check(0, gp_face4); //nes controller
+	
 
 // move if pressing direction
 if(l || r || u || d)
@@ -58,14 +65,11 @@ if(r && d && !l)		direction = 315 // left down
 
 
 if(spdd && !(spdd && spdu) && setspeed > .5) setspeed -= .025
-
-
 if(spdu && !(spdd && spdu) && setspeed < 2) setspeed += .025
 
+if(shot) instance_create_layer(x,y-2,"Instances",obj_plr_bullet);
 
-
-
-
+if(shotdelay) shotdelay = false else shotdelay = true;
 
 
 
