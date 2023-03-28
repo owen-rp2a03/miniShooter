@@ -1,9 +1,9 @@
 {
   "FolderOrderSettings": [
-    {"name":"hud","order":1,"path":"folders/Sprites/hud.yy",},
-    {"name":"enemy","order":7,"path":"folders/Sprites/enemy.yy",},
-    {"name":"boss","order":8,"path":"folders/Sprites/boss.yy",},
     {"name":"boss","order":6,"path":"folders/Objects/boss.yy",},
+    {"name":"boss","order":8,"path":"folders/Sprites/boss.yy",},
+    {"name":"enemy","order":7,"path":"folders/Sprites/enemy.yy",},
+    {"name":"hud","order":1,"path":"folders/Sprites/hud.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_plr_bullet","order":2,"path":"objects/obj_plr_bullet/obj_plr_bullet.yy",},
