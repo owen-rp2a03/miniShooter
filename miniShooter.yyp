@@ -37,6 +37,7 @@
     "IDEVersion": "2023.2.1.75",
   },
   "resources": [
+    {"id":{"name":"obj_bos_parent","path":"objects/obj_bos_parent/obj_bos_parent.yy",},},
     {"id":{"name":"obj_plr_bullet","path":"objects/obj_plr_bullet/obj_plr_bullet.yy",},},
     {"id":{"name":"spr_collision","path":"sprites/spr_collision/spr_collision.yy",},},
     {"id":{"name":"seq_bos0","path":"sequences/seq_bos0/seq_bos0.yy",},},

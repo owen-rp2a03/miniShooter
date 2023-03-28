@@ -6,6 +6,7 @@
     {"name":"hud","order":1,"path":"folders/Sprites/hud.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"obj_bos_parent","order":1,"path":"objects/obj_bos_parent/obj_bos_parent.yy",},
     {"name":"obj_plr_bullet","order":2,"path":"objects/obj_plr_bullet/obj_plr_bullet.yy",},
     {"name":"spr_collision","order":4,"path":"sprites/spr_collision/spr_collision.yy",},
     {"name":"rm_stage_tiletest","order":2,"path":"rooms/rm_stage_tiletest/rm_stage_tiletest.yy",},
