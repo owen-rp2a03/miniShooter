@@ -42,6 +42,8 @@
     {"id":{"name":"spr_collision","path":"sprites/spr_collision/spr_collision.yy",},},
     {"id":{"name":"seq_bos0","path":"sequences/seq_bos0/seq_bos0.yy",},},
     {"id":{"name":"rm_stage_tiletest","path":"rooms/rm_stage_tiletest/rm_stage_tiletest.yy",},},
+    {"id":{"name":"spr_fnt_4x3","path":"sprites/spr_fnt_4x3/spr_fnt_4x3.yy",},},
+    {"id":{"name":"obj_fnt_3x4","path":"objects/obj_fnt_3x4/obj_fnt_3x4.yy",},},
     {"id":{"name":"obj_bos0","path":"objects/obj_bos0/obj_bos0.yy",},},
     {"id":{"name":"fnt_1","path":"fonts/fnt_1/fnt_1.yy",},},
     {"id":{"name":"rm_stage1","path":"rooms/rm_stage1/rm_stage1.yy",},},

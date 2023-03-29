@@ -71,8 +71,27 @@ if(shot) instance_create_layer(x,y-2,"Instances",obj_plr_bullet);
 
 if(shotdelay) shotdelay = false else shotdelay = true;
 
+// hurt variable for enemies to set to true
+if(hurt) image_blend = #ff0000
+else	image_blend = #ffffff;
 
+//color for hitbox pixel
+if(!hurt)
+{
+	hsvhue -= 2;
 
+	if(hsvhue < 0) hsvhue = 255;
+	hbox = make_color_hsv(hsvhue,128,255);
+}
+else
+{
+	hsvhue -= 4;
+
+	if(hsvhue < 0) hsvhue = 255;
+	hbox = make_color_hsv(hsvhue,192,255);
+}
+
+hurt = false;
 
 
 
