@@ -10,6 +10,8 @@
     {"name":"obj_plr_bullet","order":2,"path":"objects/obj_plr_bullet/obj_plr_bullet.yy",},
     {"name":"spr_collision","order":4,"path":"sprites/spr_collision/spr_collision.yy",},
     {"name":"rm_stage_tiletest","order":2,"path":"rooms/rm_stage_tiletest/rm_stage_tiletest.yy",},
+    {"name":"spr_fnt_4x3","order":1,"path":"sprites/spr_fnt_4x3/spr_fnt_4x3.yy",},
+    {"name":"obj_fnt_3x4","order":1,"path":"objects/obj_fnt_3x4/obj_fnt_3x4.yy",},
     {"name":"rm_stage1","order":1,"path":"rooms/rm_stage1/rm_stage1.yy",},
     {"name":"obj_collision","order":5,"path":"objects/obj_collision/obj_collision.yy",},
     {"name":"obj_item","order":4,"path":"objects/obj_item/obj_item.yy",},

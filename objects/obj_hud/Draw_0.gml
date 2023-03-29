@@ -1,5 +1,15 @@
 /// @description 
 
+draw_set_halign(fa_right);
+
+draw_text_color(64,0,t_min1+":"+t_sec1+"."+t_mil1, //text for elapsed time
+	make_color_hsv(hsvhue1,64,255),	make_color_hsv(hsvhue4,64,255),
+	make_color_hsv(hsvhue1,184,255),make_color_hsv(hsvhue4,184,255), 1);
+	
+
+
+
+// lives containers
 if(lives >= 1)draw_sprite_ext(spr_hud_lives,1,
 				view_get_xport(view_current),
 				view_get_yport(view_current)+camera_get_view_height(view_current),

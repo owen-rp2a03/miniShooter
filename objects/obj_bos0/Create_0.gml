@@ -1,6 +1,6 @@
 /// @description 
 
-y = 100;
+y = 104;
 image_xscale = .5;
 
 
