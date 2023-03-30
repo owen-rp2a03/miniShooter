@@ -1,7 +1,6 @@
 /// @description 
 
 
-if(doalarm == 0.1) doalarm = 1;
-
+if(step == int64(step)+.1) step = int64(step)+1;
 
 

@@ -64,16 +64,23 @@ if(d && !(l || r))		direction = 270 // down
 if(r && d && !l)		direction = 315 // left down
 
 
+// change speed control
 if(spdd && !(spdd && spdu) && setspeed > .5) setspeed -= .025
 if(spdu && !(spdd && spdu) && setspeed < 2) setspeed += .025
 
+
+//shoot control
 if(shot) instance_create_layer(x,y-2,"Instances",obj_plr_bullet);
 
 if(shotdelay) shotdelay = false else shotdelay = true;
 
+
 // hurt variable for enemies to set to true
 if(hurt) image_blend = #ff0000
 else	image_blend = #ffffff;
+
+
+
 
 //color for hitbox pixel
 if(!hurt)

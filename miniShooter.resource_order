@@ -17,6 +17,8 @@
     {"name":"obj_item","order":4,"path":"objects/obj_item/obj_item.yy",},
     {"name":"spr_item","order":3,"path":"sprites/spr_item/spr_item.yy",},
     {"name":"spr_tiles","order":5,"path":"sprites/spr_tiles/spr_tiles.yy",},
+    {"name":"spr_bullet_impact","order":9,"path":"sprites/spr_bullet_impact/spr_bullet_impact.yy",},
+    {"name":"obj_plr_bullet_impact","order":7,"path":"objects/obj_plr_bullet_impact/obj_plr_bullet_impact.yy",},
     {"name":"obj_player","order":1,"path":"objects/obj_player/obj_player.yy",},
     {"name":"obj_hud","order":3,"path":"objects/obj_hud/obj_hud.yy",},
     {"name":"spr_1px","order":2,"path":"sprites/spr_1px/spr_1px.yy",},

@@ -9,6 +9,6 @@ if(shot)
 }
 else shotalarm = false;
 
-alarm[0] = 0
+alarm[0] = 4
 
 
