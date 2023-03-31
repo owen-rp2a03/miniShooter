@@ -1,3 +1,3 @@
 /// @description
 
-instance_destroy(other);
+//if(shading > 1.5) instance_destroy(other);
