@@ -1,6 +1,14 @@
 /// @description 
 
-if(image_alpha < 1) image_alpha += .01 else image_alpha = 1;
+if(instance_number(obj_bos_hitpoint) == 0) {
+	if(hsvsat < 1) 
+	{
+		hsvsat += .01 
+	}
+	
+	else hsvsat = 1;
+}
+else hsvsat = 0;
 
 
 image_blend = make_color_hsv(hsvhue,hsvsat,hsvval);
@@ -16,7 +24,7 @@ if(image_alpha = 1)
 }
 else hsvval = 255;
 
-hsvsat = 64+(sethealth-damage)*(192/sethealth);
+//hsvsat = 64+(sethealth-damage)*(192/sethealth);
 
 
 

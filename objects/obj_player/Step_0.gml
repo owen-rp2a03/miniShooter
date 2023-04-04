@@ -70,9 +70,16 @@ if(spdu && !(spdd && spdu) && setspeed < 2) setspeed += .025
 
 
 //shoot control
-if(shot) instance_create_layer(x,y-2,"Instances",obj_plr_bullet);
+if(shot)
+{
+	shotdelay -= 1;
+}
 
-if(shotdelay) shotdelay = false else shotdelay = true;
+if(shotdelay == 0)
+{
+	instance_create_layer(x,y-2,"Instances",obj_plr_bullet);
+	shotdelay = 4;
+}
 
 
 // hurt variable for enemies to set to true

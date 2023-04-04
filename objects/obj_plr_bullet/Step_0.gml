@@ -1,7 +1,7 @@
 /// @description
 
 
-y -= 3; 
+y -= 2; 
 
 
 
