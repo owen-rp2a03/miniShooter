@@ -75,7 +75,7 @@ if(shot)
 	shotdelay -= 1;
 }
 
-if(shotdelay == 0)
+if(shotdelay <= 0)
 {
 	instance_create_layer(x,y-2,"Instances",obj_plr_bullet);
 	shotdelay = 4;
