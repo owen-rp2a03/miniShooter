@@ -3,7 +3,7 @@
 draw_self();
 
 
-draw_text(x+4,y,string(x)+" "+string(y));
+//draw_text(x+4,y,string(x)+" "+string(y));
 
 
 

@@ -96,6 +96,8 @@ if(!hurt)
 
 	if(hsvhue < 0) hsvhue = 255;
 	hbox = make_color_hsv(hsvhue,128,255);
+	
+	
 }
 else
 {

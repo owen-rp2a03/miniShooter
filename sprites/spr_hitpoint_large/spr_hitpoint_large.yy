@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_hitpoint_large",
-  "bbox_bottom": 6,
+  "bbox_bottom": 7,
   "bbox_left": 1,
   "bbox_right": 4,
   "bbox_top": 1,

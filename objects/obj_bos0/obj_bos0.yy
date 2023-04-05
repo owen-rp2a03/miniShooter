@@ -13,8 +13,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "boss",
-    "path": "folders/Objects/boss.yy",
+    "name": "bos0",
+    "path": "folders/Objects/boss/bos0.yy",
   },
   "parentObjectId": {
     "name": "obj_bos_parent",
