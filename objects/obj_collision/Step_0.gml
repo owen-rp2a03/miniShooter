@@ -14,7 +14,6 @@ else
 	}
 	else
 	{
-		// Jump To Point
 		x = xprevious;
 		y = yprevious;
 	}

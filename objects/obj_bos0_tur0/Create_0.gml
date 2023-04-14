@@ -1,18 +1,28 @@
 /// @description
 
-
-if(image_xscale < 0)
+if(image_index == 0) //standard turret
 {
-	left = true
-}
+	if(image_xscale < 0)
+	{
+		left = true
+	}
 
 
 
-if(image_yscale == 2)
-{
-	straight = true
+	if(image_yscale == 2)
+	{
+		straight = true
 	
-	settimer = settimer/2
+		settimer = settimer/2
+	}
+
+	timer = settimer
 }
 
-timer = settimer
+if(image_index == 1) //missile launcher
+{
+	instance_create_depth(x,y,depth+1,obj_emy_missle)
+	
+	instance_destroy(self)
+}
+

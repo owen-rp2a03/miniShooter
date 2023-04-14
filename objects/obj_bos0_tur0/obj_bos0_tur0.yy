@@ -34,8 +34,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "spr_1px_r",
-    "path": "sprites/spr_1px_r/spr_1px_r.yy",
+    "name": "spr_1px_set",
+    "path": "sprites/spr_1px_set/spr_1px_set.yy",
   },
   "spriteMaskId": null,
   "visible": false,

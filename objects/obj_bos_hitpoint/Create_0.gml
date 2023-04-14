@@ -1,5 +1,7 @@
 /// @description 
 
+image_speed = 0;
+
 sprite_index = spr_1px;
 
 image_alpha = 0

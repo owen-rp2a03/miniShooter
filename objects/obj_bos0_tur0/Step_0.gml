@@ -1,58 +1,61 @@
 /// @description 
 
-
-
-timer -= 1;
-
-
-if(timer <= 0)
+if(image_index == 0) //standard turret
 {
-	timer = settimer;
-}
+	timer -= 1;
 
 
-if(timer == settimer-8)
-{
-	var newbul = instance_create_layer(x,y,"Instances",obj_emy_bul);
-	
-	if(!straight)
+	if(timer <= 0)
 	{
-		if(left) newbul.direction = 40+180;
-		else	newbul.direction = -40;
+		timer = settimer;
 	}
-	else newbul.direction = -90;
-	
-	newbul.speed = 1;
-}
-if(timer == settimer-16)
-{
-	var newbul = instance_create_layer(x,y,"Instances",obj_emy_bul);
-	
-	if(!straight)
+
+
+	if(timer == settimer-8)
 	{
-
-		if(left) newbul.direction = 60+180;
-		else	newbul.direction = -60;
+		var newbul = instance_create_layer(x,y,"Instances",obj_emy_bul);
+	
+		if(!straight)
+		{
+			if(left) newbul.direction = 40+180;
+			else	newbul.direction = -40;
+		}
+		else newbul.direction = -90;
+	
+		newbul.speed = 1;
 	}
-	else newbul.direction = -90;
-	
-	newbul.speed = 1;
-}
-if(timer == settimer-24)
-{
-	var newbul = instance_create_layer(x,y,"Instances",obj_emy_bul);
-	
-	if(!straight)
+	if(timer == settimer-16)
 	{
-		if(left) newbul.direction = 80+180;
-		else	newbul.direction = -80;
-	}
-	else newbul.direction = -90;
+		var newbul = instance_create_layer(x,y,"Instances",obj_emy_bul);
 	
-	newbul.speed = 1;
+		if(!straight)
+		{
+
+			if(left) newbul.direction = 60+180;
+			else	newbul.direction = -60;
+		}
+		else newbul.direction = -90;
+	
+		newbul.speed = 1;
+	}
+	if(timer == settimer-24)
+	{
+		var newbul = instance_create_layer(x,y,"Instances",obj_emy_bul);
+	
+		if(!straight)
+		{
+			if(left) newbul.direction = 80+180;
+			else	newbul.direction = -80;
+		}
+		else newbul.direction = -90;
+	
+		newbul.speed = 1;
+	}
 }
 
-
-
+if(image_index == 1) //missile launcher
+{
+	
+}
 
 

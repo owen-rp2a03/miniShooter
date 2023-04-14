@@ -97,6 +97,7 @@ if(!hurt)
 	if(hsvhue < 0) hsvhue = 255;
 	hbox = make_color_hsv(hsvhue,128,255);
 	
+	iframe = 0 //set iframes to 0 now that it wont reset to 60 in the else
 	
 }
 else
@@ -105,9 +106,22 @@ else
 
 	if(hsvhue < 0) hsvhue = 255;
 	hbox = make_color_hsv(hsvhue,192,255);
+	
+	if(iframe == 0) iframe = 60; //reset iframes for next hit
 }
 
-hurt = false;
+if(iframe > 1) iframe -= 1 else hurt = false; //countdown iframes and disable at end
+
+if(iframe > 0)
+{
+	if(image_alpha <= .3) alpha_up = true;
+	if(image_alpha >= 1) alpha_up = false;
+
+	if(alpha_up) image_alpha += .2 else image_alpha -= .2 //flash alpha up/down
+}
+else if(image_alpha <= 1) image_alpha += .2;
+
+
 
 
 
